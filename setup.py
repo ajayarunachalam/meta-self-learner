@@ -21,6 +21,7 @@ def setup_package():
         url='https://github.com/ajayarunachalam/meta-self-learner',
         packages=find_packages(),
         long_description=open('./README.rst').read(),
+        long_description_content_type="text/x-rst",
         install_requires=open('./requirements.txt').read().split()
     )
 
