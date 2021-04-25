@@ -402,7 +402,7 @@ Full Demo
 =========
 ## Important Links
 ------------------
-- Find the full Notebook for the above illustration here : https://github.com/ajayarunachalam/meta-self-learner/blob/main/Full_Demo.ipynb
+- Find the full Notebook for the above illustration here : https://github.com/ajayarunachalam/meta-self-learner/blob/main/Full_Demo_Tested.ipynb
 
 To Launch Above Illustration on Terminal
 ----------------------------------------
