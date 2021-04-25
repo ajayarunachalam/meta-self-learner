@@ -28,8 +28,8 @@ LAYER-1:
 --------
 Six classifiers are used (LR, SVM, RF, ETC, GBM, and KNN).
 All the classifiers are applied twice:
-  1) The classifiers are trained on (X_train, y_train), and used to predict the class probabilities of (X_valid).
-  2) The classifiers are trained on (X = (X_train + X_valid), y= (y_train + y_valid)) and used to predict the class probabilities of (X_test).
+1) The classifiers are trained on (X_train, y_train), and used to predict the class probabilities of (X_valid).
+2) The classifiers are trained on (X = (X_train + X_valid), y= (y_train + y_valid)) and used to predict the class probabilities of (X_test).
 
 LAYER-2:
 --------
