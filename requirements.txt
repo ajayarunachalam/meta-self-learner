@@ -1,0 +1,10 @@
+# Python dependencies required for deployment
+pandas
+numpy
+scikit-learn>=0.16.1
+tabulate==0.8.9
+xgboost==1.4.1
+scipy
+six
+matplotlib
+plot-metric
