@@ -1,7 +1,7 @@
 
 # coding: utf-8
 __author__ = 'Ajay Arunachalam'
-__version__ = '0.0.2'
+__version__ = '0.0.3'
 __date__ = '27.4.2021'
 # In[10]:
 

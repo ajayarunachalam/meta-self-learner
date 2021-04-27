@@ -1,33 +1,35 @@
-#!/usr/bin/env python
-'''
-__author__ = 'Ajay Arunachalam'
-__version__ = '0.0.2'
-__date__ = '27.4.2021'
-'''
+import setuptools
 
-import sys
+with open("README.rst", "r") as fh:
+    long_description = fh.read()
 
-from setuptools import find_packages, setup
+setuptools.setup(
+    name='meta-self-learner',
+    version='0.0.3',
+    scripts=['meta_self_learner_package'],
+    install_requires=[
+        "pandas",
+        "numpy",
+        "tabulate",
+        "xgboost",
+        "scipy",
+        "six",
+        "scikit_learn",
+        "matplotlib",
+        "plot-metric",
+    ],
+    author="Ajay Arunachalam",
+    author_email="ajay.arunachalam08@gmail.com",
+    description="Meta Ensemble Self-Learning with Optimization Objective Functions",
+    long_description=long_description,
+    long_description_content_type="text/x-rst",
+    url='https://github.com/ajayarunachalam/meta-self-learner/',
+    packages=setuptools.find_packages(),
+    py_modules=['msl/MetaLearning', 'msl/cf_matrix'],
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
 
-
-def setup_package():
-    metadata = dict(
-        name='meta-self-learner',
-        version='0.0.2',
-        description='Meta Ensemble Self-Learning with Optimization Objective Functions',
-        author='Ajay Arunachalam',
-        author_email='ajay.arunachalam08@gmail.com',
-        license='GNU General Public License',
-        url='https://github.com/ajayarunachalam/meta-self-learner',
-        packages=find_packages(),
-        py_modules=['msl/MetaLearning', 'msl/cf_matrix'],
-        long_description=open('./README.rst').read(),
-        long_description_content_type="text/x-rst",
-        install_requires=open('./requirements.txt').read().split()
-    )
-
-    setup(**metadata)
-
-
-if (__name__ == '__main__'):
-    setup_package()
+)

@@ -1,4 +1,3 @@
-# Python dependencies required for deployment
 pandas
 numpy
 scikit-learn
