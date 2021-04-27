@@ -1,6 +1,6 @@
 __author__ = 'Ajay Arunachalam'
-__version__ = '0.0.1'
-__date__ = '25.4.2021'
+__version__ = '0.0.2'
+__date__ = '27.4.2021'
 
 # load libraries
 import os
