@@ -3,7 +3,7 @@ meta-self-learner
 
 **Meta-Self-Learner**
 
-GitHub: https://github.com/ajayarunachalam/meta-self-learner
+pypi: https://pypi.org/project/meta-self-learner/
 
 About
 =====
