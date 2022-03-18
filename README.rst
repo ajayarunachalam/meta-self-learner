@@ -119,11 +119,11 @@ Let's load a simple dataset, make a train & test set and deploy the Meta Self Le
     from tabulate import tabulate
     from xgboost import XGBClassifier
 
-    # load in-built package functions
-    from MetaLearning import *
+    # load built package functions
+    from msl.MetaLearning import *
     from plot_metric.functions import MultiClassClassification
-    from cf_matrix import make_confusion_matrix
-
+    from msl.cf_matrix import make_confusion_matrix
+    
     #fixing random state
     random_state=123
 
